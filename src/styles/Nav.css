@@ -1,0 +1,31 @@
+.header {
+    width: 100vw;
+    height: 90px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    color: rgb(207, 182, 148);
+    flex: 1;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.nav {
+    flex: 1;
+
+}
+
+.navlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: rgb(207, 182, 148);
+    gap: 25px;
+    font-size: 20px;
+}

@@ -1,0 +1,53 @@
+.me {
+margin: 40px;
+}
+
+.abtpic {
+    height: 190px;
+    border-radius: 50%;
+}
+
+.abtme {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.abtmeheader {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+.educationsection {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.educationheader {
+    font-size: 30px;
+    
+}
+
+.education {
+    font-size: 30px;
+}
+
+.experiencesection {
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.experienceheader {
+    font-size: 30px;
+}
+
+.experience {
+    font-size: 30px;
+}
