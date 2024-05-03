@@ -6,6 +6,8 @@ import Contact from "./pages/Contact"
 import About from './pages/About'
 
 
+
+
 function App() {
 
 
@@ -19,6 +21,7 @@ function App() {
         <Route index path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+
 
       </Routes>
 
