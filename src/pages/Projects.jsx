@@ -1,6 +1,6 @@
-import "../styles/projects.css"
+import "../styles/Projects.css"
 
-const Projects = () => {
+function Projects() {
   return (
     <div>hallåja</div>
   )
