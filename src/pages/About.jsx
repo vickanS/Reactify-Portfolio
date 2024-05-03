@@ -17,7 +17,7 @@ function About() {
         <h2 className="experienceheader">My experience:</h2>
         <p className="experience">Before the studies started i didn't have any experience in the field of frontend development or any kind of coding what so ever,
         therefor as time goes by i learn new things continuously.</p>
-        <p className="experience">I'm not going to lie, I struggle <strong>ALOT</strong>. I have always liked problem solving so, I
+        <p className="experience">I'm not going to lie, I struggle <strong>ALOT</strong>. I have always liked problem solving, so I
         know that once i get the hang of it this is what I'm meant to do!</p>
       </section>
       </section>
