@@ -1,31 +1,85 @@
 .header {
     width: 100vw;
     height: 90px;
-    background-color: antiquewhite;
+    background-color: rgb(9, 9, 48);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
+    border-bottom: solid rgba(169, 169, 169, 0.5);
+    border-radius: 10px;
+    border-width: 1px;
 }
 
 .title {
     color: rgb(207, 182, 148);
-    flex: 1;
     font-size: 24px;
     font-weight: bolder;
 }
 
 .nav {
-    flex: 1;
-
+    z-index: 20;
+    min-height: 50px; 
+    width: 100%;  
 }
 
 .navlist {
+    display: none;
+    width: 100%;  /* Anpassa bredden efter overlayens storlek */
+    height: 100%;
+    position: absolute;  /* Gör så att listan kan positioneras fritt inuti overlayen */
+    top: 50px;
+    left: 0; 
+}
+
+.navlist.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.navlist a {
+    text-decoration: none;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: rgb(207, 182, 148); 
+    font-size: 24px; 
+    cursor: pointer;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(9, 9, 48);
+    border: solid rgba(169, 169, 169, 0.5);
+    border-radius: 10px;
+    border-width: 1px;
+    z-index: 10;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none;
-    color: rgb(207, 182, 148);
-    gap: 25px;
-    font-size: 20px;
-}
+  }
+  
+  
+    .navitem {
+        color: #fff; 
+        font-size: 20px; 
+        padding: 10px 20px; 
+        text-decoration: none; 
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .navitem:hover {
+        color: rgb(207, 182, 148);
+        font-size: 22px;
+    }
+  
