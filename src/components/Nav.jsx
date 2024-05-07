@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import "../styles/Nav.css"
-import '../styles/Theme.css'
+
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
