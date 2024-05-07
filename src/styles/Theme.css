@@ -1,0 +1,16 @@
+.dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  .light {
+    background-color: #fff;
+    color: black;
+  }
+
+  .dark, .light {
+    min-height: 100vh; /* Säkerställer att containern är som minst lika hög som viewporten */
+    width: 100%; /* Säkerställer att containern tar upp hela bredden */
+    margin: 0;
+    padding: 0;
+  }
