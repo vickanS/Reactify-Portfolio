@@ -8,7 +8,7 @@ import Home from "./pages/Home"
 import Contact from "./pages/Contact"
 import About from './pages/About'
 import Projects from './pages/Projects'
-import ThemeSwitcher from './components/Theme'
+
 import './styles/Theme.css'
 
 function App() {
@@ -26,7 +26,6 @@ function AppContent() {
     <div className={theme}>
       <BrowserRouter>
         <Nav />
-        <ThemeSwitcher />
         <Routes>
           <Route index path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

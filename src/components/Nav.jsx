@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import "../styles/Nav.css"
+import ThemeSwitcher from "./Theme"
+import "../styles/Theme.css"
 
 
 const Nav = () => {
@@ -14,6 +16,7 @@ const Nav = () => {
     <header className="header">
       <h1 className="title">Victorias portfolio</h1>
       <button className="hamburger" onClick={toggleMenu}>☰</button>
+      <ThemeSwitcher className="theme-switcher" />
       {isOpen && (
         <div className="overlay" onClick={toggleMenu}>
           <nav className="nav">
