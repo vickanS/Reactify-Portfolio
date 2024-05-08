@@ -40,6 +40,14 @@
     color: lightblue;
 }
 
+.dark a:hover {
+    color: rgb(79, 79, 192);
+}
+
 .light a {
     color: purple;
+}
+
+.light a:hover {
+    color: darkorchid;
 }
