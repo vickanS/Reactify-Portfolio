@@ -1,8 +1,45 @@
+.contactsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    padding: 50px 50px 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contactheader {
+    font-size: xx-large;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.contactp {
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5;
+}
+
 .contactinfo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 150px;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+}
 
+.socialslinks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.dark a {
+    color: lightblue;
+}
+
+.light a {
+    color: purple;
 }

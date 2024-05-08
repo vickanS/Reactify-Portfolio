@@ -3,6 +3,7 @@ import React from 'react'
 import { Provider, useSelector } from 'react-redux'
 import store from './store'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import '@ionic/react/css/core.css';
 import Nav from "./components/Nav"
 import Home from "./pages/Home"
 import Contact from "./pages/Contact"
