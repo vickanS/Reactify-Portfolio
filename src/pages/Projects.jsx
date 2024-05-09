@@ -3,15 +3,15 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const Projects = () => {
-  const [repos, setRepos] = useState([]); // State för att lagra repositories
+  const [repos, setRepos] = useState([]);
 
   useEffect(() => {
     axios.get('https://api.github.com/users/vickanS/repos')
       .then(response => {
-        setRepos(response.data); // Spara data i state
+        setRepos(response.data); 
       })
       .catch(error => console.error('Error fetching data:', error));
-  }, []); // Tom dependency array för att köra endast vid första render
+  }, []); 
 
   return (
     <div>

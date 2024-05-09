@@ -6,13 +6,16 @@ import "../styles/Theme.css"
 
 
 const Nav = () => {
+
+  //håller koll på om meny är öppen eller stängd
   const [isOpen, setIsOpen] = useState(false);
 
+  //funktion för att växla mellan öppen och stängd meny
   const toggleMenu = () => {
     setIsOpen(!isOpen)
   }
 
-  return (
+  return ( //render visar innehållet på sidan
     <header className="header">
       <h1 className="title">Victorias portfolio</h1>
       <button className="hamburger" onClick={toggleMenu}>☰</button>

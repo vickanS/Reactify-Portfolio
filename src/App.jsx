@@ -13,19 +13,21 @@ import Projects from './pages/Projects'
 import './styles/Theme.css'
 
 function App() {
-  return (
-    <Provider store={store}>
+  return ( // provider applicerar innehållet i store på hela applikationen
+    <Provider store={store}> 
       <AppContent />
     </Provider>
   );
 }
 
 function AppContent() {
-  const theme = useSelector(state => state.theme); // Använd useSelector för att hämta temat
+  const theme = useSelector(state => state.theme); // useSelector används för att hämta temat dark eller light
 
+//innanför browserRouter läggs det som ska visas på sidan vart man än är i applikationen
+//innanför Routes lägger man de olika sökvägarna
   return (
     <div className={theme}>
-      <BrowserRouter>
+      <BrowserRouter> 
         <Nav />
         <Routes>
           <Route index path="/" element={<Home />} />

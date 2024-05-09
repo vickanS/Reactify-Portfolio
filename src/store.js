@@ -1,16 +1,17 @@
 import { createStore } from 'redux';
 
-// Här är din reducer
+//reducern i det initiala tillståndet
 const initialState = {
   theme: 'dark'
 };
 
+//Reducer-funktionen för hantering av tematillståndet
 function themeReducer(state = initialState, action) {
   switch (action.type) {
     case 'TOGGLE_THEME':
       return {
         ...state,
-        theme: state.theme === 'dark' ? 'light' : 'dark'
+        theme: state.theme === 'dark' ? 'light' : 'dark' //växlar mellan dark och light tillstånd
       };
     default:
       return state;
