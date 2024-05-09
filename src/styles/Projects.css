@@ -1,0 +1,43 @@
+.projectsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.projectshead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectsheader {
+    font-size: xx-large;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.projectsp {
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.5;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+}
+
+  .projectslist li {
+    margin-bottom: 20px; 
+    list-style: none;
+}
+
